@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What was the total revenue in the last quarter?",
+    "expected": [{ "filename": "annual_report.pdf", "page": 12 }]
+  },
+  {
+    "question": "Who is responsible for approving supplier contracts?",
+    "expected": [
+      { "filename": "annual_report.pdf", "page": 31 },
+      { "filename": "annual_report.pdf", "page": 32 }
+    ]
+  }
+]

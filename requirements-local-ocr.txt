@@ -1,0 +1,8 @@
+# Optional: local OCR with Tesseract (OCR_PROVIDER=tesseract).
+# This installs only the Python wrapper. You ALSO need the Tesseract program
+# itself on your computer:
+#   macOS:          brew install tesseract
+#   Ubuntu/Debian:  sudo apt install tesseract-ocr
+# If it is installed but not found, set TESSERACT_CMD_PATH in your .env file
+# (on Apple Silicon Macs it is usually /opt/homebrew/bin/tesseract).
+pytesseract>=0.3.10,<0.4

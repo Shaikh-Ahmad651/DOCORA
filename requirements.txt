@@ -1,0 +1,16 @@
+# Docora runtime dependencies.
+# Ranges are built around the versions the code was tested with (Python 3.13).
+# After your first successful real run, you can freeze exact versions with:
+#   pip freeze | grep -i -E "^(gradio|pymupdf|numpy|rank-bm25|python-dotenv|requests|google-genai|openai|cohere)=="
+
+gradio>=6.30,<7
+pymupdf>=2.0,<3
+numpy>=2.0,<3
+rank-bm25>=0.2.2,<0.3
+python-dotenv>=1.0,<2
+requests>=2.31,<3
+
+# Hosted provider SDKs (each is imported only if that provider is selected)
+google-genai>=2.31,<3
+openai>=3.35,<4
+cohere>=7.2,<8
